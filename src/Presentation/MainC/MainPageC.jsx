@@ -1,23 +1,24 @@
 import { Link } from "react-router-dom"
 import { useLocation, useNavigate } from "react-router-dom"
-import Mcdonald from "/img/mcdonald_logo.png"
-import bembos from "/img/bembos_logo.jpg"
-import kfc from "/img/KFC-Logo.png"
-import hut from "/img/Pizza_Hut_Logo_3.png"
-import pj from "/img/Papa-Johns-Pizza-Logo.png"
-import mt from "/img/mamatomato_logo.jpg"
-import norkys from "/img/Norkys-Logo.png"
-import pardos from "/img/pardos_logo.jpg"
-import lenia from "/img/leña_logo.png"
-import rosa from "/img/rosa_logo.png"
-import barrunto from "/img/barrunto_logo.jpg"
-import embarcadero from "/img/embarcadero_logo.png"
+import { useEffect } from "react"
+import Mcdonald from "img/mcdonald_logo.png"
+import bembos from "img/bembos_logo.jpg"
+import kfc from "img/KFC-Logo.png"
+import hut from "img/Pizza_Hut_Logo_3.png"
+import pj from "img/Papa-Johns-Pizza-Logo.png"
+import mt from "img/mamatomato_logo.jpg"
+import norkys from "Norkys-Logo.png"
+import pardos from "img/pardos_logo.jpg"
+import lenia from "img/leña_logo.png"
+import rosa from "img/rosa_logo.png"
+import barrunto from "img/barrunto_logo.jpg"
+import embarcadero from "img/embarcadero_logo.png"
 
 
 function MainPageC(){
     const location = useLocation()
     const navigate = useNavigate()
-
+    
     useEffect(function() {
         if (location.state == null) {
             navigate("/lpc")
@@ -25,19 +26,19 @@ function MainPageC(){
             return <div>
                 <ul classNameName="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
                     <li classNameName="nav-item">
-                        <Link to={"/pw_2/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
+                        <Link to={"/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/pw_2/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
+                        <Link to={"/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/pw_2/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
+                        <Link to={"/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/pw_2/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
+                        <Link to={"/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/pw_2/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+                        <Link to={"/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
                     </li>
                 </ul>
                 <ul className="list-group" style="border: hidden;">

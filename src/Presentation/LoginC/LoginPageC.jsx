@@ -19,7 +19,7 @@ function LoginPageC(){
                 console.log(dataUsuarioJSON)
                 sessionStorage.setItem("DATA_USUARIO", dataUsuarioJSON)
 
-                navigate("/pw_2/mpc", {
+                navigate("/mpc", {
                     state: {
                         username: correo
                     }
