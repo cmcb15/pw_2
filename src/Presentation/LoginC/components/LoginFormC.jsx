@@ -31,7 +31,7 @@ function LoginFormC(props){
             </button>
         </div>
         <div className="my-3">
-            <Link to={"/lpr"}>No eres usuario cliente?</Link>
+            <Link to={"/pw_2/lpr"}>No eres usuario cliente?</Link>
         </div>
     </form>
 }

@@ -19,7 +19,7 @@ function LoginPageR(){
                 console.log(dataUsuarioJSON)
                 sessionStorage.setItem("DATA_USUARIO", dataUsuarioJSON)
 
-                navigate("/platosRegistrados", {
+                navigate("/pw_2/platosRegistrados", {
                     state: {
                         username: usuario
                     }

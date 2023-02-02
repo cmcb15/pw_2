@@ -3,19 +3,19 @@ function Pantalla13(){
     return <div>
         <ul className="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
     <li className="nav-item">
-      <Link to={"platosRegistrados"} className="nav-link active" aria-current="page" style="border: hidden;">Platos</Link>
+      <Link to={"/pw_2/platosRegistrados"} className="nav-link active" aria-current="page" style="border: hidden;">Platos</Link>
     </li>
     <li className="nav-item">
-      <Link to={"/pedidoR"} className="nav-link active" aria-current="page" style="border: hidden;">Lista Pedidos</Link>
+      <Link to={"/pw_2/pedidoR"} className="nav-link active" aria-current="page" style="border: hidden;">Lista Pedidos</Link>
     </li>
     <li className="nav-item">
       <Link to={"#"} className="nav-link active" aria-current="page" style="border: hidden;">Estado Pedido</Link>
     </li>
     <li className="nav-item">
-      <Link to={"/registrarPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Registrar Pedido</Link>
+      <Link to={"/pw_2/registrarPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Registrar Pedido</Link>
     </li>
     <li className="nav-item">
-        <Link to={"/lpr"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+        <Link to={"/pw_2/lpr"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
     </li>
 </ul>
 

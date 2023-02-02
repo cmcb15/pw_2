@@ -25,19 +25,19 @@ function MainPageC(){
             return <div>
                 <ul classNameName="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
                     <li classNameName="nav-item">
-                        <Link to={"/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
+                        <Link to={"/pw_2/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
+                        <Link to={"/pw_2/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
+                        <Link to={"/pw_2/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
+                        <Link to={"/pw_2/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+                        <Link to={"/pw_2/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
                     </li>
                 </ul>
                 <ul className="list-group" style="border: hidden;">
@@ -145,7 +145,7 @@ function MainPageC(){
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Rosa Nautica</h6>
                             <img src={rosa} className="card-img-top" style={"border-radius: 150px;"}/>
-                            <Link to={"/rosaNautica"} className="btn btn-primary">Ver Menu</Link>
+                            <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
                         </div>

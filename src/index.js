@@ -21,14 +21,14 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/lpc' element={<LoginPageC/>}/>
-        <Route path='/lpr' element={<LoginPageR/>}/>
-        <Route path='/mpc' element={<MainPageC/>}/>
-        <Route path='/resenia' element={<Sorpresa/>}/>
-        <Route path='/platosRegistrados' element={<Pantalla10/>}/>
-        <Route path='/carrito' element={<Pantalla7/>}/>
-        <Route path='/pedidoR' element={<Pantalla13/>}/>
-        <Route path='/registrarPedido' element={<Pantalla16/>}/>
+        <Route path='/pw_2/lpc' element={<LoginPageC/>}/>
+        <Route path='/pw_2/lpr' element={<LoginPageR/>}/>
+        <Route path='/pw_2/mpc' element={<MainPageC/>}/>
+        <Route path='/pw_2/resenia' element={<Sorpresa/>}/>
+        <Route path='/pw_2/platosRegistrados' element={<Pantalla10/>}/>
+        <Route path='/pw_2/carrito' element={<Pantalla7/>}/>
+        <Route path='/pw_2/pedidoR' element={<Pantalla13/>}/>
+        <Route path='/pw_2/registrarPedido' element={<Pantalla16/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
