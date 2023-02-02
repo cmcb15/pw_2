@@ -1,6 +1,23 @@
 function Pantalla16(){
 
     return <div>
+        <ul className="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
+    <li className="nav-item">
+      <Link to={"platosRegistrados"} className="nav-link active" aria-current="page" style="border: hidden;">Platos</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"/pedidoR"} className="nav-link active" aria-current="page" style="border: hidden;">Lista Pedidos</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"#"} className="nav-link active" aria-current="page" style="border: hidden;">Estado Pedido</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"/registrarPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Registrar Pedido</Link>
+    </li>
+    <li className="nav-item">
+        <Link to={"/lpr"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+    </li>
+</ul>
 
         <div class="d-flex justify-content-center">
             <h1>Registar entrega de pedido</h1>

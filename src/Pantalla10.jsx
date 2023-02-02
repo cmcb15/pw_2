@@ -1,7 +1,25 @@
-
+import { Link } from "react-router-dom"
 
 function Pantalla10(){
     return <div>
+      <ul className="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
+    <li className="nav-item">
+      <a className="nav-link active" aria-current="page" href="/pantalla10.html" id="activo" style="border: hidden;">Platos</a>
+      <Link to={"platosRegistrados"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"/pedidoR"} className="nav-link active" aria-current="page" style="border: hidden;">Lista Pedidos</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"#"} className="nav-link active" aria-current="page" style="border: hidden;">Estado Pedido</Link>
+    </li>
+    <li className="nav-item">
+      <Link to={"/registrarPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Registrar Pedido</Link>
+    </li>
+    <li className="nav-item">
+        <Link to={"/lpr"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+    </li>
+</ul>
 
 <section class="c1">
         <h1 id="titulo">Platos registrados</h1>

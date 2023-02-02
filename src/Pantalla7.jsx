@@ -1,5 +1,24 @@
+import { Link } from "react-router-dom"
+
 function Pantalla7(){
     return <div>
+        <ul classNameName="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
+                    <li classNameName="nav-item">
+                        <Link to={"/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
+                    </li>
+                    <li classNameName="nav-item">
+                        <Link to={"/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
+                    </li>
+                    <li classNameName="nav-item">
+                        <Link to={"/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
+                    </li>
+                    <li classNameName="nav-item">
+                        <Link to={"/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
+                    </li>
+                    <li classNameName="nav-item">
+                        <Link to={"/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+                    </li>
+                </ul>
         <div className="d-flex justify-content-center">
             <h1>Realizar pedido</h1>
         </div>
