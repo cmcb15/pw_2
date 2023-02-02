@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-link";
+import { Link } from "react-router-dom"
 
 function LoginFormC(props){
     const [correo, setCorreo] = useState("")
@@ -31,7 +31,7 @@ function LoginFormC(props){
             </button>
         </div>
         <div className="my-3">
-            <Link to={"/main"}>No eres usuario cliente?</Link>
+            <Link to={"/lpr"}>No eres usuario cliente?</Link>
         </div>
     </form>
 }
