@@ -24,41 +24,41 @@ function MainPageC(){
             navigate("/lpc")
         }else {
             return <div>
-                <ul classNameName="nav nav-tabs justify-content-end" id="cabecera" style="border: hidden;">
+                <ul classNameName="nav nav-tabs justify-content-end" id="cabecera" style={{border: "hidden;"}}>
                     <li classNameName="nav-item">
-                        <Link to={"/mpc"} classNameName="nav-link active" aria-current="page" style="border: hidden;">Pagina Principal</Link>
+                        <Link to={"/mpc"} classNameName="nav-link active" aria-current="page">Pagina Principal</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/resenia"} className="nav-link active" aria-current="page" style="border: hidden;">Reseña</Link>
+                        <Link to={"/resenia"} className="nav-link active" aria-current="page">Reseña</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/carrito"} className="nav-link active" aria-current="page" style="border: hidden;">Carrito</Link>
+                        <Link to={"/carrito"} className="nav-link active" aria-current="page">Carrito</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/verPedido"} className="nav-link active" aria-current="page" style="border: hidden;">Ver Pedido</Link>
+                        <Link to={"/verPedido"} className="nav-link active" aria-current="page">Ver Pedido</Link>
                     </li>
                     <li classNameName="nav-item">
-                        <Link to={"/lpc"} className="nav-link active" aria-current="page" style="border: hidden;">Cerrar Sesion</Link>
+                        <Link to={"/lpc"} className="nav-link active" aria-current="page">Cerrar Sesion</Link>
                     </li>
                 </ul>
-                <ul className="list-group" style="border: hidden;">
-                    <li className="list-group-item" id="restaurantes1" style="border: hidden;">
+                <ul className="list-group">
+                    <li className="list-group-item" id="restaurantes1">
                     <h5>Comida Rapida</h5>
                     <div className="row justify-content-md-center">
                         <div className="col-sm-3">
-                        <div className="card" style="width: 10rem;">
+                        <div className="card" style={{width: "10rem"}}>
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Mc'Donalds</h6>
-                            <img src={Mcdonald} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={Mcdonald} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
                         </div>
                         <div className="col-sm-3">
-                        <div className="card" style="width: 10rem;">
+                        <div className="card" style={{"width: 10rem;"}}>
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Bembos</h6>
-                            <img src={bembos} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={bembos} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">KFC</h6>
-                            <img src={kfc} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={kfc} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Pizza Hut</h6>
-                            <img src={hut} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={hut} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Papa Johns</h6>
-                            <img src={pj} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={pj} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Mamma Tomato</h6>
-                            <img src={mt} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={mt} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -112,8 +112,8 @@ function MainPageC(){
                         <div className="col-sm-3">
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
-                            <h6 className="card-title" style="text-align: center;">Norkys</h6>
-                            <img src={norkys} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <h6 className="card-title" style={{textAlign: "center;"}}>Norkys</h6>
+                            <img src={norkys} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Pardos Chiken</h6>
-                            <img src={pardos} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={pardos} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">La Leña</h6>
-                            <img src={lenia} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={lenia} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Rosa Nautica</h6>
-                            <img src={rosa} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={rosa} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
@@ -154,16 +154,16 @@ function MainPageC(){
                         <div className="card" style="width: 10rem;">
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Mi Barrunto</h6>
-                            <img src={barrunto} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={barrunto} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
                         </div>
                         <div className="col-sm-3">
-                        <div className="card" style="width: 10rem;">
+                        <div className="card" style={{width: "10rem;"}}>
                             <div className="card-body">
                             <h6 className="card-title" style="text-align: center;">Embarcadero 41</h6>
-                            <img src={embarcadero} className="card-img-top" style={"border-radius: 150px;"}/>
+                            <img src={embarcadero} className="card-img-top" style={{borderRadius:"150px;"}}/>
                             <Link to={"#"} className="btn btn-primary">Ver Menu</Link>
                             </div>
                         </div>
