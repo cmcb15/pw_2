@@ -23,23 +23,24 @@ import {
 import LoginPage8 from './Pantalla8/Login/Login8';
 import LoginPage4 from './Pantalla4/Login/Login4';
 import MainPage4 from './Pantalla4/Main/Main4';
-import Menu from './Pantallas/Menu';
+import MenuC from './Pantallas/MenuC';
+import MenuR from './Pantallas/MenuR';
 
 
 const router = createBrowserRouter([ 
   {path: '/', element: <LoginPageC/>},
-  {path: 'pantalla3', element: <div><Menu/><MainPageC/></div>},
-  {path: 'pantalla4', element: <div><Menu/><LoginPage4/></div>},
-  {path: 'main2', element: <div><Menu/><MainPage4/></div>}, 
-  {path: "pantalla6",element: <div><Menu/><Pantalla6/></div>},
-  {path: "pantalla7",element: <div><Menu/><Pantalla7/></div>},
-  {path: 'pantalla8', element: <div><Menu/><LoginPage8/></div>},
-  {path: 'main', element: <div><Menu/><MainPage8/></div>},
+  {path: 'pantalla3', element: <div><MenuC/><MainPageC/></div>},
+  {path: 'pantalla4', element: <div><MenuC/><LoginPage4/></div>},
+  {path: 'main2', element: <div><MenuC/><MainPage4/></div>}, 
+  {path: "pantalla6",element: <div><MenuC/><Pantalla6/></div>},
+  {path: "pantalla7",element: <div><MenuC/><Pantalla7/></div>},
+  {path: 'pantalla8', element: <div><MenuC/><LoginPage8/></div>},
+  {path: 'main', element: <div><MenuC/><MainPage8/></div>},
   {path: 'pantalla9', element: <LoginPageR/>},
-  {path: "pantalla10",element: <div><Menu/><Pantalla10/></div>},
-  {path: "pantalla13",element: <div><Menu/><Pantalla13/></div>},
-  {path: "pantalla16",element: <div><Menu/><Pantalla16/></div>},
-  {path: 'sorpresa', element: <div><Menu/><Sorpresa/></div>},
+  {path: "pantalla10",element: <div><MenuR/><Pantalla10/></div>},
+  {path: "pantalla13",element: <div><MenuR/><Pantalla13/></div>},
+  {path: "pantalla16",element: <div><MenuR/><Pantalla16/></div>},
+  {path: 'sorpresa', element: <div><MenuC/><Sorpresa/></div>},
 ]);
 
 createRoot(document.getElementById("root")).render(
