@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useLocation, useNavigate } from "react-router-dom"
+import './Styles/pantalla10.css';
 
 function Pantalla10(){
   const location = useLocation()

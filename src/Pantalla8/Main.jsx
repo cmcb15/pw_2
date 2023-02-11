@@ -10,8 +10,9 @@ function MainPage8(){
         <img  src="/img/delivery.gif" alt="" />
         </div>
         <div className="d-flex justify-content-center">
-            <a href="/" className="btn btn-primary mt-4">Cerrar Sesion</a>
+            <a href="/pantalla3" className="btn btn-primary mt-4">Regresar al menu principal</a>
         </div>
+        <br/>
     </div>
 };
 export default MainPage8
